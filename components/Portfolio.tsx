@@ -10,14 +10,14 @@ import img5 from '../assets/img/5.jpg';
 const portfolioItems: PortfolioItem[] = [
   {
     id: 1,
-    title: "Glass Wardrobe System",
-    category: "Walk-in Closet",
+    title: "The Grand Feature Hall",
+    category: "Sitting Room",
     imageUrl: img1
   },
   {
     id: 2,
-    title: "Signature Marble Suite",
-    category: "Luxury Bathroom",
+    title: "Master Sanctuary",
+    category: "Bedroom",
     imageUrl: img2
   },
   {
@@ -28,14 +28,14 @@ const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 4,
-    title: "Master Sanctuary",
-    category: "Signature Bedroom",
+    title: "Luxury Spa Retreat",
+    category: "Luxury Bathroom",
     imageUrl: img4
   },
   {
     id: 5,
-    title: "The Grand Feature Hall",
-    category: "Living Space",
+    title: "Glass Wardrobe System",
+    category: "Walk-in Closet",
     imageUrl: img5
   }
 ];
@@ -46,11 +46,11 @@ const Portfolio: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-4">
           <div className="max-w-xl">
-            <span className="text-emerald-600 font-bold tracking-widest uppercase text-sm">Portfolio</span>
+            <span className="text-[#ffebd7] font-bold tracking-widest uppercase text-sm">Portfolio</span>
             <h2 className="text-4xl md:text-6xl font-serif font-bold mt-2">Our Recent Havens</h2>
           </div>
-          <div className="text-right glass p-4 rounded-xl border-emerald-900/30">
-             <p className="text-emerald-500 font-bold">Price Status</p>
+          <div className="text-right glass p-4 rounded-xl border-[#ffebd7]/30">
+             <p className="text-[#ffebd7] font-bold">Price Status</p>
              <p className="text-2xl font-serif text-gray-300">Affordable Luxury</p>
           </div>
         </div>
@@ -63,8 +63,8 @@ const Portfolio: React.FC = () => {
                 alt={item.title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-70 group-hover:opacity-100 grayscale hover:grayscale-0 transition-all"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                <span className="text-emerald-400 text-sm font-bold uppercase tracking-widest mb-2">{item.category}</span>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+                <span className="text-[#ffebd7] text-sm font-bold uppercase tracking-widest mb-2">{item.category}</span>
                 <h3 className="text-2xl font-serif font-bold">{item.title}</h3>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Portfolio: React.FC = () => {
         </div>
         
         <div className="mt-16 text-center">
-            <div className="inline-block glass px-8 py-4 rounded-full text-xl font-serif italic text-gray-400 border-emerald-900/20">
+            <div className="inline-block glass px-8 py-4 rounded-full text-xl font-serif italic text-gray-400 border-[#ffebd7]/20">
                 DM for custom interiors that speak your style.
             </div>
         </div>

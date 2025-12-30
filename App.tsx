@@ -11,8 +11,8 @@ const App: React.FC = () => {
     <div className="relative min-h-screen">
       {/* Background Decorative Elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
-        <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-emerald-900/20 rounded-full blur-[120px]"></div>
-        <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-emerald-800/10 rounded-full blur-[120px]"></div>
+        <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-[#ffddb2]/20 rounded-full blur-[120px]"></div>
+        <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-[#ffddb2]/10 rounded-full blur-[120px]"></div>
       </div>
 
       <Navbar />
